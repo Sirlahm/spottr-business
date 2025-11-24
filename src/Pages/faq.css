@@ -1,0 +1,31 @@
+.accordion__button {
+  background-color: #fff !important;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.accordion-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.cliq-link {
+  font-weight: bold;
+  color: #274b89;
+  text-decoration: none !important;
+}
+
+.remove-outline {
+  outline: none !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  border-bottom: 1px solid #ddd;
+  border: none;
+}

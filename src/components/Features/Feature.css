@@ -1,0 +1,32 @@
+.featureItem {
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(115, 123, 134, 0.15);
+  border-radius: 10px;
+  color: #333333;
+  font-family: "Sora";
+  padding: 20px 35px;
+  margin-bottom: 30px;
+}
+
+.itemTitle {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  color: #384c6d;
+}
+
+.itemDesc {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .itemTitle {
+    font-size: 20px;
+  }
+
+  .featureItem {
+    padding: 30px 35px;
+  }
+}

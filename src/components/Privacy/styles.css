@@ -1,0 +1,18 @@
+.question {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  color: #274b89;
+}
+.question-content {
+  font-weight: 700;
+}
+.question-icon {
+  font-weight: 700;
+  font-size: 2em;
+}
+.answer {
+  color: #3b3b3bb3;
+  font-size: 13px;
+  font-weight: 400;
+}

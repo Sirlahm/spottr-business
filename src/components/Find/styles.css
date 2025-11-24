@@ -1,0 +1,165 @@
+.a-find-wrapper {
+  margin-top: 250px;
+  margin-bottom: 0;
+}
+
+.find-caption-texts {
+  font-size: var(--big-font);
+  color: var(--powder-blue);
+  font-weight: var(--extra-bold);
+}
+
+.find-caption-texts span:first-child {
+  color: var(--dark-blue);
+}
+
+.find-desc-text {
+  color: var(--dark-blue);
+  margin-top: 50px;
+}
+
+.map {
+  z-index: 999;
+}
+.transitioning-text {
+  font-size: 24px;
+}
+
+.sign-up-button {
+  background-color: var(--dark-blue);
+  border-radius: 38px;
+  font-weight: var(--bold);
+  font-size: var(--smaller-font);
+  border: 0;
+  padding: 15px 35px;
+  color: #fff;
+  display: flex;
+  margin: auto;
+}
+
+.relative {
+  position: relative;
+  top: 60px;
+}
+
+.dots {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  z-index: -1;
+}
+.list {
+  margin-bottom: 0;
+  display: flex;
+}
+.list .icon {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  background: #c2e0ff;
+  border-radius: 10px;
+  font-size: 29px;
+  margin-right: 50px;
+  padding: 25px;
+}
+.list .icon i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.list p {
+  padding-right: 1rem;
+  font-size: 24px;
+  margin-bottom: 151px;
+}
+.type-container {
+  height: 300px;
+}
+.display-h {
+  font-size: 40px !important;
+  line-height: 24px !important;
+}
+
+/* .find-text-animation {
+  -webkit-animation: find 27s linear infinite;
+  animation: find 27s linear infinite;
+}
+.buy-text-animation {
+  -webkit-animation: buy 30s ease-in-out infinite;
+  animation: buy 30s ease-in-out infinite;
+} */
+
+/* @keyframes find {
+  0% {
+    color: #274b89;
+  }
+  30% {
+    color: #c2e0ff;
+  }
+  60% {
+    color: #c2e0ff;
+  }
+  60% {
+    color: #c2e0ff;
+  }
+}
+
+@keyframes buy {
+  0% {
+    color: #fff;
+  }
+  30% {
+    color: #274b89;
+  }
+  66% {
+    color: #fff;
+  }
+} */
+
+@media screen and (max-width: 900px) {
+  .a-find-wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .small-pattern {
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    z-index: -1;
+  }
+  .find-caption-texts {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .image-wrapper {
+    width: 20% !important;
+  }
+  .text-wrapper {
+    width: 80% !important;
+  }
+  .image-search {
+    height: 40px;
+  }
+  .flex {
+    display: flex !important;
+  }
+  .find-desc-text {
+    color: var(--dark-blue);
+    margin-top: 36px;
+  }
+  .reg48 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .transitioning-text {
+    font-size: 18px;
+  }
+  .type-container {
+    height: 250px;
+  }
+  .display-h {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

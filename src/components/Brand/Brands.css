@@ -1,0 +1,9 @@
+.brands-container {
+  background-color: var(--lighter-blue);
+}
+
+@media screen and (max-width: 900px) {
+  .p2 {
+    padding: 1rem !important;
+  }
+}

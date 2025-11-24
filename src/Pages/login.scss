@@ -1,0 +1,248 @@
+@import "./variables";
+.auth {
+  width: 100%;
+  height: 100%;
+  background: #274b89;
+  position: absolute;
+
+  a {
+    color: #274b89;
+  }
+  .left {
+    background: url("/assets/auth-bg.svg") no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    background-position-y: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow-y: auto;
+
+    .welcome {
+      font-size: 47.2431px;
+      line-height: 64px;
+      text-align: center;
+      color: #ffffff;
+      text-align: center;
+    }
+    .spottr {
+      font-weight: bold;
+      font-size: 95.7132px;
+      line-height: 131px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 56px;
+    }
+
+    .body {
+      .dis-title {
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ecf7ff;
+        margin-right: 13px;
+      }
+      p {
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 158.8%;
+        padding-right: 2.5rem;
+        color: #c2e0ff;
+      }
+    }
+  }
+
+  .right {
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    padding: 65px 77px;
+
+    .top-navbar {
+      margin-bottom: 36px;
+
+      .btn-link {
+        font-size: 15px;
+        line-height: 20px;
+        color: #274b89;
+
+        .fas {
+          margin-right: 21px;
+        }
+      }
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      margin-bottom: 31px;
+
+      color: #274b89;
+    }
+
+    .terms {
+      padding: 16px 3.5rem;
+      text-align: center;
+      margin-bottom: 65px;
+    }
+
+    .password-validation {
+      span {
+        display: block;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 158.8%;
+      }
+
+      margin-bottom: 88px;
+    }
+  }
+
+  .btn-forgetpassword {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    float: right;
+    padding-right: 0;
+    color: #274b89;
+  }
+
+  .login-with {
+    .buttons {
+      margin-top: 45px;
+      margin-bottom: 45px;
+    }
+    .btn {
+      background: #ffffff;
+      border: 1px solid #cbcbcb;
+      border-radius: 4px;
+      padding: 15px 20px;
+      font-weight: bolder;
+
+      &.facebook {
+        font-size: 16px;
+        margin-right: 21px;
+        text-align: center;
+        color: #4267b2;
+      }
+      &.google {
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+
+        .icon {
+          margin-right: 14px;
+        }
+      }
+
+      .icon {
+        width: 23px;
+      }
+    }
+  }
+
+  .btn-submit {
+    background: #274b89;
+    box-shadow: 0px 9px 20px rgba(171, 180, 189, 0.148862);
+    border-radius: 4px;
+    width: 100%;
+    padding: 18px;
+  }
+}
+
+.bottom {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin-bottom: 0;
+    margin-right: 1rem;
+
+    .fas {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.btn-auth {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.2703px;
+  line-height: 17px;
+  text-align: center;
+  color: #274b89;
+  background: #ffffff;
+  border-radius: 26.1622px;
+  padding: 13px 33px;
+}
+
+.with-icon {
+  position: relative;
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    color: #c4c4c4;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024.98px) {
+  .auth {
+    .left {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .right {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 768.98px) {
+  .auth {
+    .left {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    .right {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+}
+@media (max-width: 480.98px) {
+  .auth {
+    .left {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .right {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.blog-header {
+  font-size: var(--mid-font);
+  font-weight: var(--bold);
+  color: var(--dark-blue);
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.blog-subtitle {
+  font-size: var(--small-font);
+  font-weight: var(--regular);
+  color: var(--light-grey);
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.read {
+  color: var(--powder-blue) !important;
+}
+
+@media screen and (max-width: 900px) {
+  .blog-header {
+    font-size: 30px;
+    line-height: 35px;
+
+    max-width: 90%;
+    font-weight: var(--extra-bold);
+    color: var(--dark-blue);
+    margin-top: 30px !important;
+  }
+  .blog-subtitle {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,271 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-bg {
+  background-color: #102954;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.flexRight {
+  flex: 0 0 50%;
+  padding-top: 100px;
+  max-width: 50%;
+}
+.a-banner-heroImg {
+  flex: 0 0 50%;
+
+  max-width: 50%;
+}
+.captionText {
+  font-size: 100px;
+  font-weight: var(--black);
+  color: #fff;
+  line-height: 60px;
+
+  font-family: "Sora";
+}
+.poiret {
+  font-family: "Poiret One", cursive;
+}
+.textEffect {
+  color: #e97a35 !important;
+}
+.subText {
+  font-weight: 200;
+  font-size: 24px;
+  color: #fff;
+  width: 90%;
+  font-family: "Sora";
+}
+
+.globeBoy {
+  position: absolute;
+  top: 50px;
+  right: -40px;
+  animation: scale 5s infinite alternate;
+}
+
+.globeGirl {
+  position: absolute;
+  left: 130px;
+  bottom: 260px;
+  animation: scale 5s infinite alternate;
+}
+.card1 {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  animation: slideX 5s infinite alternate;
+}
+
+.card2 {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+  animation: slideX 5s infinite alternate;
+}
+@keyframes slideX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50px);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scaleX(0.8);
+  }
+  70% {
+    transform: scaleX(-1);
+  }
+  100% {
+    transform: scaleX(-1.2);
+  }
+}
+.heroImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 800px;
+  z-index: -1;
+}
+
+.link {
+  padding: 20px 25px;
+}
+
+.checkout {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px 25px;
+  width: 200px;
+  border-radius: 40px;
+  font-weight: 700;
+  color: var(--dark-blue);
+  text-decoration: none !important;
+}
+.checkout:hover {
+  color: var(--dark-blue) !important;
+}
+.appBox {
+  width: 53%;
+  margin-top: 100px;
+}
+.s-globe {
+  display: none;
+}
+.l-app {
+  color: #ffffff;
+  text-decoration: none;
+}
+@media screen and (max-width: 1300px) {
+  #earth {
+    width: 600px;
+    height: 600px;
+  }
+  .p-50 {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .p-50 {
+    padding-bottom: 0px;
+  }
+  #earth {
+    width: 550px;
+    height: 550px;
+  }
+  .captionText {
+    font-size: 70px;
+  }
+  .globeGirl {
+    position: absolute;
+    left: 70px;
+    bottom: 170px;
+  }
+  .card2 {
+    bottom: 0;
+    left: 10px;
+  }
+  .appBox {
+    width: 70%;
+    margin: 50px 0;
+  }
+  .a-100 {
+    height: 100%;
+  }
+  .p-50 {
+    padding-top: 0px !important;
+  }
+  .globeHomeImg {
+    height: 100%;
+    width: 100%;
+  }
+  .globeBoy {
+    top: 70px;
+    right: 0px;
+  }
+  .globeHome {
+    position: absolute;
+    /* height: 100%; */
+    right: -15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #earth {
+    width: 500px;
+    height: 500px;
+  }
+  .flexRight {
+    padding-top: 30px;
+  }
+  .captionText {
+    padding-top: 50px;
+  }
+  .heroImg {
+    height: 700px;
+  }
+
+  .card1 {
+    position: absolute;
+    top: 0;
+    left: -100px;
+  }
+  .card2 {
+    left: 0;
+  }
+  .appBox {
+    width: 70%;
+    margin-top: 50px;
+  }
+  .globeHome {
+    right: -10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #earth {
+    width: 500px;
+    height: 500px;
+  }
+  .appBox {
+    width: 50%;
+  }
+  .s-globe {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .heroImg {
+    display: none;
+  }
+  .captionText {
+    font-size: 58px;
+    line-height: 40px;
+  }
+
+  .subText {
+    margin-top: 40px;
+    width: 100%;
+    line-height: 27px !important;
+    font-size: 18px !important;
+  }
+
+  .a-banner-heroImg {
+    display: none;
+  }
+  .flexRight {
+    z-index: 3;
+    padding-top: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .appBox {
+    width: 80%;
+  }
+
+  #earth {
+    width: 400px;
+    height: 400px;
+  }
+  .s-globe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

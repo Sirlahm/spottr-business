@@ -1,0 +1,90 @@
+.testimonies-wrapper {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.testimonies-section span {
+  font-size: var(--small-font);
+  font-weight: var(--small-font);
+}
+
+.testimony {
+  font-size: var(--medium-font);
+  color: var(--dark-blue);
+  font-weight: var(--extra-bold);
+  width: 90%;
+  line-height: 50px;
+}
+
+.sideImg {
+  position: absolute;
+  left: 0;
+  height: 800px;
+  top: 150px;
+  z-index: -1;
+  display: none;
+}
+
+.name {
+  letter-spacing: 8px;
+  font-size: 23px;
+}
+
+.carousel-control-next {
+  height: 50px;
+  width: 50px !important;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #000;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  background-color: #c2e0ff;
+  top: 130px;
+  right: -70px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../assets/chevron-right.png");
+}
+
+.carousel-control-prev {
+  display: none;
+}
+
+.testimonials {
+  height: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  .sideImg {
+    display: none;
+  }
+  .testimonies-wrapper {
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .testimony {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .testimonies-section span {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .testimonies-slide-container {
+    margin-top: 70px;
+    margin-bottom: 120px;
+  }
+  /* .testimony-kel {
+    height: 440px !important;
+  } */
+}

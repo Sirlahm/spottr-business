@@ -1,0 +1,29 @@
+.paragraghBold {
+  color: #384c6d;
+  font-weight: var(--black) !important;
+  font-size: 62px !important;
+  margin: 0;
+
+  font-family: "Sora";
+  position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .paragraghBold {
+    font-size: 48px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .paragraghBold {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paragraghBold {
+    margin: 20px 0;
+    /* font-weight: 700 !important; */
+    font-size: 27px !important;
+  }
+}

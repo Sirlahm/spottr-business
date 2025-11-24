@@ -1,0 +1,98 @@
+.heading {
+  font-size: 50px;
+  color: #384c6d;
+
+  font-weight: var(--bold);
+  line-height: 56px;
+}
+
+.experience {
+  background-image: linear-gradient(
+    to right,
+    #ffffff00 5%,
+    #f6f6f6 30%,
+    #f6f6f6 95%
+  );
+}
+
+.experience-header {
+  color: #333333;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 17px;
+}
+.caption-text {
+  color: var(--light-grey);
+}
+
+.download-banners {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.gradient {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Sora";
+  position: relative;
+}
+
+.phone-mockup {
+  position: absolute;
+  height: 700px;
+  margin-top: -450px;
+  animation: bounce 0.8s infinite alternate;
+}
+
+.pt {
+  margin-top: 20px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .phone-mockup {
+    display: none;
+  }
+  .gradient {
+    margin-top: 0px !important;
+    margin-bottom: 0 !important;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    background-color: #f6f6f6;
+  }
+  .heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .caption-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .phoneAnimate {
+    display: block !important;
+    animation: bounce 0.8s infinite alternate;
+  }
+  .pt {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .download-banners {
+    width: calc(50% - 5px);
+    margin-top: 0px !important;
+    height: 50px;
+  }
+  .textCen {
+    text-align: center;
+  }
+}

@@ -1,0 +1,57 @@
+.numbers {
+  font-size: 131px;
+  font-weight: bold;
+  color: var(--dark-blue);
+  line-height: 130px;
+}
+
+.small-texts {
+  font-size: 35px;
+  color: #000;
+}
+
+.numbers-wrapper {
+  margin-top: 200px !important;
+  margin-bottom: 50px;
+}
+
+.h {
+  height: 750px;
+}
+
+.ppl {
+  margin-left: 150px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .numbers-container1 {
+    width: 100% !important;
+  }
+  .numbers-wrapper {
+    margin-top: 0px !important;
+    margin-bottom: 50px;
+  }
+  .numbers {
+    font-size: 85px;
+    font-weight: bold;
+    color: var(--dark-blue);
+    line-height: 24px;
+    margin-top: 45px;
+  }
+  .wallet-pattern-side {
+    display: none;
+  }
+  .store-img {
+    height: 70px;
+  }
+  .small-texts {
+    padding-top: 15px !important;
+    font-size: 22px;
+  }
+  .pl {
+    margin-left: 700px;
+  }
+  .ppl {
+    margin-left: 100px !important;
+  }
+}

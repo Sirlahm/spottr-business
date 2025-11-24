@@ -1,0 +1,147 @@
+.blue-bg {
+  background-color: #f4f9ff;
+  font-family: "Sora";
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.await-heading {
+  text-align: center;
+  font-size: var(--big-font);
+  font-weight: var(--extra-bold);
+  color: #384c6d;
+  position: relative;
+}
+.ovalAwait {
+  position: absolute;
+  left: 50%;
+}
+.wwyWrapper {
+  background-color: var(--lighter-blue);
+}
+
+.wwyHeader {
+  font-size: var(--big-font);
+  font-weight: var(--extra-bold);
+  color: var(--dark-blue);
+}
+.yyArrow {
+  padding: 0 20px;
+  right: 0;
+  position: absolute;
+
+  bottom: 0;
+}
+.yyContent {
+  width: calc(33.3% - 10px);
+}
+.yyFlex {
+  border: 1px solid rgba(56, 76, 109, 0.37);
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px 20px;
+  align-items: center;
+}
+.yyCommerce {
+  flex: 0 0 80;
+  margin-left: 10px;
+}
+
+.leverage-txt {
+  color: #102954;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.yyDesc {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.aaText {
+  font-size: 15px;
+  color: #384c6d !important;
+  line-height: 36px;
+}
+
+.wwyHeading {
+  font-size: var(--small-font);
+  font-weight: var(--bold);
+  width: 100%;
+  color: #102954;
+  line-height: 30px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.yyHeading {
+  color: #333333;
+  font-weight: 600;
+  margin: 0;
+}
+.yyLink {
+  color: #384c6d !important;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.wwyDescription {
+  font-size: var(--small-font);
+  color: var(--light-grey);
+  line-height: 30px;
+}
+
+.wwyexp1 {
+  color: var(--light-grey);
+  font-weight: var(--regular);
+  line-height: 50px;
+  display: none !important;
+  font-size: 10px;
+}
+
+.awaits-slider-s {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .textCen {
+    text-align: center;
+  }
+  .await-heading {
+    font-size: 40px;
+  }
+  .wwyDesc {
+    display: block !important;
+  }
+  .wwyContent {
+    /* display: none; */
+    /* background-color: var(--powder-color) !important; */
+  }
+  .wwyContent {
+    width: 100% !important;
+    padding: 0;
+    margin-top: 20px !important;
+    background: #ffffff;
+    padding: 20px;
+  }
+  .wwyHeading {
+    font-size: 21px;
+    line-height: 25px;
+    width: 100%;
+  }
+  .awaits-slider-l {
+    display: none;
+  }
+  .awaits-slider-s {
+    padding: 0 10px;
+    display: block;
+  }
+  .ovalAwait {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .await-heading {
+    font-size: 30px;
+  }
+}
