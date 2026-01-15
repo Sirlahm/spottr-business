@@ -4,14 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import A from "./components/About";
+// import A from "./components/About";
+import A from "./Pages/NewAbout";
+
 import P from "./Pages/Privacy";
 // import Home from "./Pages/Home";
 import Home from "Pages/NewHome";
 import Terms from "./Pages/Terms";
 import Blog from "./Pages/Blog";
 import FAQ from "./Pages/Faq.js";
-import Contact from "./Pages/Contact-us";
+// import Contact from "./Pages/Contact-us";
+import Contact from "Pages/NewContact";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Sign-up";
 import OTP from "./Pages/OTP";

@@ -9,23 +9,24 @@ import person1 from "../../assets/person1.png";
 import person2 from "../../assets/person2.png";
 import person3 from "../../assets/person3.png";
 import person4 from "../../assets/person4.png";
-import item1 from "../../assets/item1.png";
-import item2 from "../../assets/item2.png";
-import item3 from "../../assets/item3.jpg";
+import item1 from "../../assets/rec-1.jpg";
+import item2 from "../../assets/rec2.png";
+import item3 from "../../assets/rec3.png";
+import item4 from "../../assets/rec4.jpg";
 
 import { Heart, MessageSquare, Share2, Bookmark } from "lucide-react";
 
 // Dummy slide data: each slide has different user and recommendations
 const slideData = [
   {
-    user: { avatar: person1, name: "Sarah Johnson", time: "2h ago" },
+    user: { avatar: person1, name: "Johnson Micheal", time: "2h ago" },
     body:
-      "I just bought this speaker; it’s perfect for remote work presentations and video calls.",
+      "I struggled with weight loss for 15 years until I started to take it seriously. At first it was a challenge but over the course of 3 months, I became used to my new routine and I am sharing the products that helped me on my journey.",
     items: [
-      { img: item1, name: "Sport Active Wear", brand: "Soundwave", price: "₦150,000.00" },
-      { img: item2, name: "U‑fitness Weekly Plan", brand: "Soundwave", price: "₦150,000.00" },
-      { img: item3, name: "Zenlife Essentials", brand: "Soundwave", price: "₦150,000.00" },
-      { img: item1, name: "Zero Sugar Parfait", brand: "Soundwave", price: "₦150,000.00" },
+      { img: item1, name: "Sport Active Wear", brand: "Soundwave", price: "₦50,000.00" },
+      { img: item2, name: "U‑fitness Weekly Plan", brand: "Fitness", price: "₦10,000.00" },
+      { img: item3, name: "Zenlife Essentials", brand: "Mental health", price: "₦15,000.00" },
+      { img: item4, name: "Zero Sugar Parfait", brand: "Food & Beverage", price: "₦5,000.00" },
     ],
   },
   {

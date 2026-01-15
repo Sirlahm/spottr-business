@@ -2,10 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-
-import item1 from "../../assets/item1.png";
 import item2 from "../../assets/item2.png";
-import item3 from "../../assets/item3.jpg";
 
 const stageData = [
   {
@@ -15,27 +12,31 @@ const stageData = [
     items: [
       {
         title: "The Proposal",
-        description: "Pitch ideas 24/7 and secure startup capital.",
-        img: item1,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
-      },
-      {
-        title: "Quick Start Funding",
-        description: "Fast-track micro funding to kick off operations.",
+        description: "Have an idea but don't know where to start - or who will listen? The Proposal lets you turn your idea into something real. Share it, refine it, and get access to the support and capital you need to take your first confident step into business. No pressure. No gatekeeping. Just a clear path forward.",
         img: item2,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
       },
       {
-        title: "Idea Validation Grants",
-        description: "Test market fit with small validation grants.",
-        img: item3,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
+        title: "Start Today",
+        description: "You don’t need a perfect plan to begin - you just need a place to start. With Spottr, you can set up your business, list products, or resell for brands directly from your phone. Whether you’re testing an idea or going all in, you can move at your own pace and grow as you learn.",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
+      },
+      {
+        title: "Small business loans",
+        description: "Cash flow shouldn’t be the reason your business slows down. Access flexible funding when you need it - without collateral, long bank queues, or unnecessary stress. Borrow against your activity, momentum and your crypto balance. No fluff.",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
+      },
+      {
+        title: "Still not sure?",
+        description: "We understand how hard it can be to make up ones mind on decisions like starting a business. We see thousands of small business owners like you daily and so we put together the resources below to help you kill the fear to start. ",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
       },
     ],
   },
@@ -46,29 +47,20 @@ const stageData = [
     items: [
       {
         title: "Inventory financing",
-        description: "Restock on the go powered by Cliq token.",
+        description: "Running out of stock shouldn’t mean running out of opportunities. Restock inventory exactly when demand is rising - not months later. Spottr helps you finance inventory on the go, so you can keep selling, keep customers happy, and keep momentum without locking up your cash.",
         img: item2,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
       },
       {
-        title: "Supplier Onboarding Credit",
+        title: "Expand product lines",
         description:
-          "Credit lines to onboard and scale supplier relationships.",
-        img: item1,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
+          "Growth doesn’t always mean doing more - sometimes it means offering better. Discover new products, test variations, and expand your catalogue based on real demand. Add to your stock confidently, knowing you’re responding to what customers actually want.",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
       },
-      {
-        title: "Stock Rotation Support",
-        description: "Smooth cashflow for cyclical stock turnover.",
-        img: item3,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
-      },
+
     ],
   },
   {
@@ -78,28 +70,33 @@ const stageData = [
     items: [
       {
         title: "One Dashboard global reach",
-        description: "Expand distribution with unified global operations.",
-        img: item3,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
-      },
-      {
-        title: "Regional Insights",
-        description: "Plan demand with real-time regional analytics.",
+        description: "Scaling shouldn’t mean losing control. From one dashboard, manage distribution, track demand by location, plan activations, and connect with resellers - without endless spreadsheets or guesswork. Grow into new territories with clarity, not chaos.",
         img: item2,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
       },
       {
-        title: "Distribution Analytics",
+        title: "Fight counterfeits",
+        description: "The right partners can change everything. Spottr helps brands attract, onboard, and manage resellers seamlessly. Expand your network without friction, manual processes, or endless back-and-forth and focus on building real, profitable relationships.",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
+      },
+      {
+        title: "Grow your network",
         description:
-          "Track performance and optimize your distribution network.",
-        img: item1,
-        name: "Portable Bluetooth Speaker",
-        brand: "Soundwave",
-        price: "₦15,000.00",
+          "The right partners can change everything. Spottr helps brands attract, onboard, and manage resellers seamlessly. Expand your network without friction, manual processes, or endless back-and-forth and focus on building real, profitable relationships.",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
+      },
+      {
+        title: "Beat the competition",
+        description:
+          "Visibility wins markets. Show customers exactly where to find your products, stay discoverable 24/7, and launch new offerings with confidence. When competitors slow down, you move faster - backed by data, reach, and demand insights.",
+        img: item2,
+        name: "Join Smart Business hub",
+        brand: "Entrepreneurship support centre",
       },
     ],
   },

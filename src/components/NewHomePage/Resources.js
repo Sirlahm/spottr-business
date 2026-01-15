@@ -6,41 +6,39 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import item1 from "../../assets/item1.png";
-import item2 from "../../assets/item2.png";
-import item3 from "../../assets/item3.jpg";
-import world from "../../assets/world.jpg";
-import map from "../../assets/map1.jpg";
+import item1 from "../../assets/resource-image-1.png";
+import item2 from "../../assets/resource-image-2.png";
+import item3 from "../../assets/resource-image-3.png";
 
 const resources = [
   {
     img: item1,
-    title: "New marketing playbook for Africa & the Middle East",
+    title: "New Marketing Playbook for Africa& the Middle East",
     year: 2022,
   },
   {
     img: item2,
-    title: "New Marketing Playbook for Africa & the Middle East",
+    title: "Working With You - for Brands and Businesses",
     year: 2022,
   },
   {
     img: item3,
-    title: "New Marketing Playbook for Africa & the Middle East",
+    title: "CLIQ TOKEN Deck",
     year: 2022,
   },
   {
-    img: world,
-    title: "Regional Go-to-Market Guide: Emerging Markets",
-    year: 2023,
+    img: item2,
+    title: "Working With You - for Brands and Businesses",
+    year: 2022,
   },
   {
-    img: map,
-    title: "Distribution and Viral Growth Toolkit",
-    year: 2023,
-  },
+    img: item1,
+    title: "New Marketing Playbook for Africa& the Middle East",
+    year: 2022,
+  }
 ];
 
-function ResourceCard({ img, title, year }) {
+function ResourceCard({ img, title, year }) { 
   return (
     <div className="rounded-2xl bg-[#F5F5F5] overflow-hidden h-[370px]">
       <div className="relative">
@@ -73,7 +71,7 @@ export default function Resources() {
               <button className="resources-next bg-[#F0F0F0] hover:bg-[#E6E6E6] text-[#274B89] w-9 h-9 rounded-md flex items-center justify-center"><ChevronRight size={20} /></button>
             </div>
 
-          
+
           </div>
 
           <Swiper

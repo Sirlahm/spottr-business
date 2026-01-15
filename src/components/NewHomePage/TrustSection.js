@@ -2,14 +2,14 @@ import Button from "./Button"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import netlify from "../../assets/netlify.svg";
-import uber from "../../assets/uber.svg";
-import uberEat from "../../assets/uber-eat.svg";
-import spotify from "../../assets/spotify.svg";
-import amazon from "../../assets/amazon.svg";
-import google from "../../assets/google.svg";
-import facebook from "../../assets/facebook.svg";
-import wholeFood from "../../assets/wholefood.svg";
+import netlify from "../../assets/pic1.png";
+import uber from "../../assets/pic2.png";
+import uberEat from "../../assets/pic3.png";
+import spotify from "../../assets/pic4.png";
+import amazon from "../../assets/pic5.png";
+import google from "../../assets/pic6.png";
+import facebook from "../../assets/pic7.png";
+
 
 export default function TrustSection() {
     const logos = [
@@ -27,11 +27,11 @@ export default function TrustSection() {
         amazon,
         google,
         facebook,
-        wholeFood
+
     ];
 
-    const colA = logos.filter((_, i) => i % 2 === 0); 
-    const colB =  [...logos].sort(() => Math.random() - 0.5);
+    const colA = logos.filter((_, i) => i % 2 === 0);
+    const colB = [...logos].sort(() => Math.random() - 0.5);
 
     const swiperBreakpoints = {
         0: { slidesPerView: 2, spaceBetween: 16 },
@@ -49,12 +49,12 @@ export default function TrustSection() {
                         <span className="text-[#6BDFDA]">best.</span>
                     </h2>
                     <p className="text-gray-300 mb-4 md:mb-6 text-base sm:text-base max-w-md">
-                    We work with audacious brands, agencies, creators & affiliates to plan and launch immersive brand & product campaigns
+                        We work with audacious brands, agencies, creators & affiliates to plan and launch immersive brand & product campaigns
                     </p>
                     <Button
                         text="Get it now"
                         className="bg-white text-[#274B89] px-5 sm:px-6 py-3 self-start text-sm sm:text-base"
-                        // onClick={openModal}
+                    // onClick={openModal}
                     />
                 </div>
 

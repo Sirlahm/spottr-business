@@ -3,9 +3,9 @@ import { Menu, X } from "lucide-react";
 import Logo from "../../assets/Logo-White.svg";
 
 const navItems = [
-  { label: "Home", href: "#how" },
-  { label: "About", href: "#features" },
-  { label: "Contact", href: "#testimonials" },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact-us" },
 ];
 
 export default function Navbar() {
