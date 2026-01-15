@@ -120,7 +120,7 @@ export default function BusinessSlider() {
                   </div>
 
                   {/* Right Phones */}
-                  <div className="md:col-span-3 flex flex-col sm:flex-row items-center justify-center gap-5 hidden md:flex">
+                  <div className="md:col-span-3  flex-col sm:flex-row items-center justify-center gap-5 hidden md:flex">
                     <img
                       src={s.phones[0]}
                       alt="phone"
