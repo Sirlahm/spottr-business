@@ -104,7 +104,7 @@ const stageData = [
 
 function StageRow({ bg, title, subtitle, items }) {
   return (
-    <div className={`${bg} py-12 md:py-16 h-[50vh]`}>
+    <div className={`${bg} py-12 md:py-16 md:h-[50vh]`}>
       <div className="max-w-7xl mx-auto px-3 sm:px-8 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-center">
         {/* LEFT SIDE */}
         <div className="text-left md:pr-8">

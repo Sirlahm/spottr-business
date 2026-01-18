@@ -5,7 +5,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
 import item1 from "../../assets/resource-image-1.png";
 import item2 from "../../assets/resource-image-2.png";
 import item3 from "../../assets/resource-image-3.png";
