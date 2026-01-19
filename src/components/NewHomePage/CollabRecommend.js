@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import Button from "components/NewHomePage/Button";
-import person1 from "../../assets/person1.png";
+import person1 from "../../assets/sarahh.jpg";
 import person2 from "../../assets/person2.png";
 import person3 from "../../assets/person3.png";
 import person4 from "../../assets/person4.png";
@@ -19,7 +19,7 @@ import { Heart, MessageSquare, Share2, Bookmark } from "lucide-react";
 // Dummy slide data: each slide has different user and recommendations
 const slideData = [
   {
-    user: { avatar: person1, name: "Johnson Micheal", time: "2h ago" },
+    user: { avatar: person1, name: "Sarah Johnson", time: "2h ago" },
     body:
       "I struggled with weight loss for 15 years until I started to take it seriously. At first it was a challenge but over the course of 3 months, I became used to my new routine and I am sharing the products that helped me on my journey.",
     items: [
@@ -30,38 +30,38 @@ const slideData = [
     ],
   },
   {
-    user: { avatar: person2, name: "David Kim", time: "1d ago" },
+    user: { avatar: person1, name: "Sarah Johnson", time: "2h ago" },
     body:
-      "Clean sound and solid build quality. Great value for hybrid meetings and demos.",
+      "I struggled with weight loss for 15 years until I started to take it seriously. At first it was a challenge but over the course of 3 months, I became used to my new routine and I am sharing the products that helped me on my journey.",
     items: [
-      { img: item2, name: "Pro Training Bundle", brand: "Soundwave", price: "₦120,000.00" },
-      { img: item1, name: "Studio Mic Lite", brand: "Soundwave", price: "₦95,000.00" },
-      { img: item3, name: "Wellness Starter Kit", brand: "Soundwave", price: "₦80,000.00" },
-      { img: item2, name: "Fitness Pass", brand: "Soundwave", price: "₦60,000.00" },
+      { img: item1, name: "Sport Active Wear", brand: "Soundwave", price: "₦50,000.00" },
+      { img: item2, name: "U‑fitness Weekly Plan", brand: "Fitness", price: "₦10,000.00" },
+      { img: item3, name: "Zenlife Essentials", brand: "Mental health", price: "₦15,000.00" },
+      { img: item4, name: "Zero Sugar Parfait", brand: "Food & Beverage", price: "₦5,000.00" },
     ],
   },
-  {
-    user: { avatar: person3, name: "Aisha Bello", time: "3d ago" },
-    body:
-      "Portable and reliable. We use it for pop‑up events and influencer sessions.",
-    items: [
-      { img: item3, name: "Event Essentials", brand: "Soundwave", price: "₦75,000.00" },
-      { img: item1, name: "Active Wear Kit", brand: "Soundwave", price: "₦110,000.00" },
-      { img: item2, name: "Weekly Fitness Plan", brand: "Soundwave", price: "₦65,000.00" },
-      { img: item1, name: "Snack Box", brand: "Soundwave", price: "₦40,000.00" },
-    ],
-  },
-  {
-    user: { avatar: person4, name: "Markus Lee", time: "5d ago" },
-    body:
-      "Compact design with impressive battery life. Perfect for campus tours and collabs.",
-    items: [
-      { img: item1, name: "Campus Promo Pack", brand: "Soundwave", price: "₦88,000.00" },
-      { img: item3, name: "Starter Wellness", brand: "Soundwave", price: "₦70,000.00" },
-      { img: item2, name: "Coaching Pass", brand: "Soundwave", price: "₦55,000.00" },
-      { img: item1, name: "Parfait Minis", brand: "Soundwave", price: "₦35,000.00" },
-    ],
-  },
+  // {
+  //   user: { avatar: person3, name: "Aisha Bello", time: "3d ago" },
+  //   body:
+  //     "Portable and reliable. We use it for pop‑up events and influencer sessions.",
+  //   items: [
+  //     { img: item3, name: "Event Essentials", brand: "Soundwave", price: "₦75,000.00" },
+  //     { img: item1, name: "Active Wear Kit", brand: "Soundwave", price: "₦110,000.00" },
+  //     { img: item2, name: "Weekly Fitness Plan", brand: "Soundwave", price: "₦65,000.00" },
+  //     { img: item1, name: "Snack Box", brand: "Soundwave", price: "₦40,000.00" },
+  //   ],
+  // },
+  // {
+  //   user: { avatar: person4, name: "Markus Lee", time: "5d ago" },
+  //   body:
+  //     "Compact design with impressive battery life. Perfect for campus tours and collabs.",
+  //   items: [
+  //     { img: item1, name: "Campus Promo Pack", brand: "Soundwave", price: "₦88,000.00" },
+  //     { img: item3, name: "Starter Wellness", brand: "Soundwave", price: "₦70,000.00" },
+  //     { img: item2, name: "Coaching Pass", brand: "Soundwave", price: "₦55,000.00" },
+  //     { img: item1, name: "Parfait Minis", brand: "Soundwave", price: "₦35,000.00" },
+  //   ],
+  // },
 ];
 
 function RecommendationCard({ user, body, items }) {
@@ -89,8 +89,9 @@ function RecommendationCard({ user, body, items }) {
             <div className="flex-1 leading-tight">
               <div className="text-sm font-medium text-white">{it.name}</div>
               <div className="text-[11px] text-white/70">{it.brand}</div>
+              <div className="text-xs font-semibold">{it.price}</div>
             </div>
-            <div className="text-xs font-semibold">{it.price}</div>
+        
           </div>
         ))}
       </div>
